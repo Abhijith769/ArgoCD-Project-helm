@@ -21,7 +21,7 @@ pipeline {
                     def valuesFilePath = "${helmChartPath}/values.yaml"
                     
                     // Replace the image tag in the values.yaml file
-                    sh "sed -i 's/tag:.*/tag: $${IMAGE_TAG}/' ${valuesFilePath}"
+                    sh "sed -i 's/tag:.*/tag: ${IMAGE_TAG}/' ${valuesFilePath}"
                     
                     // Configure Git to use provided credentials
                     withCredentials([usernamePassword(credentialsId: 'project-x', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
