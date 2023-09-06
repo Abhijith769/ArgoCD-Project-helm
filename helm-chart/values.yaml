@@ -9,9 +9,9 @@ image:
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
 <<<<<<< HEAD
-  tag: x-app_7be558c
+  tag: x-app_b2cc8ba
 =======
-  tag: x-app_e62ffdd
+  tag: x-app_b2cc8ba
 >>>>>>> e2e061c2e4f2295dac614ede175d32574f27c246
 
   #imagePullSecrets:
