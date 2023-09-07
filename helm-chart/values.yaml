@@ -62,7 +62,7 @@ service:
 ingress:
   enabled: true
   className: nginx
-  HostName: a9a87514462bb4253bf610194aa19ecd-384179493.ap-south-1.elb.amazonaws.com
+  HostName: a507ed7aded794848a0c6d6802e69054-1778011546.ap-south-1.elb.amazonaws.com
   annotations: {}
   tls: []
   #  - secretName: chart-example-tls
