@@ -1,0 +1,1 @@
+Helm chart for Node.js app that here in the values.yaml the tag will change when a commit happens in project-x repo (index.js file) and then the agrocd is configured with this project-x-helm repo and when any change happens in this repo (values.yaml file) argocd will deploy the new img in eks.
